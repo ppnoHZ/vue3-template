@@ -3,14 +3,14 @@
     "env": {
         "browser": true,
         "node": true,
-        "es2021": true
+        "es2021": true,
+        "vue/setup-compiler-macros": true
     },
     "extends": [
-        "plugin:vue/vue3-recommended",
         "eslint:recommended",
-        "@vue/typescript/recommended",
-        "@vue/prettier",
-        "@vue/prettier/@typescript-eslint"
+        "plugin:vue/vue3-recommended",
+        "@vue/eslint-config-typescript/recommended",
+        "@vue/eslint-config-prettier"
     ],
     "parserOptions": {
         "ecmaVersion": 2021
